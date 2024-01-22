@@ -60,3 +60,10 @@ header label:hover {
 .slide-one { background-image: url('/images/autumn.jpg');}
 
 .slide-one { background-image: url('/images/lakeside.jpg');}
+
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    
+}
