@@ -15,3 +15,13 @@ body {
     color: #fff;
     text-align: center;
 }
+
+header {
+    background: #3E474F;
+    box-shadow: 0 .5em 1em #111;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+}
+
