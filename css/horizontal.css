@@ -55,11 +55,11 @@ header label:hover {
 
 .slide-one { background-image: url('../images/starryFarm.jpg');}
 
-.slide-two { background-image: url('images/campusDarkDays.jpg');}
+.slide-two { background-image: url('../images/campusDarkDays.jpg');}
 
-.slide-three { background-image: url('images/autumn.jpg');}
+.slide-three { background-image: url('../images/autumn.jpg');}
 
-.slide-four { background-image: url('images/lakeside.jpg');}
+.slide-four { background-image: url('../images/lakeside.jpg');}
 
 
 [id^="slide"]:checked + .slide {
