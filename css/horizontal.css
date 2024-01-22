@@ -19,6 +19,7 @@ body {
 header {
     background: #3E474F;
     box-shadow: 0 .5em 1em #111;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 900;
@@ -52,18 +53,16 @@ header label:hover {
     background-size: cover;
 }
 
+.slide-one { background-image: url('../images/starryFarm.jpg');}
 
-.slide-one { background-image: url('/images/starryFarm.jpg');}
+.slide-two { background-image: url('images/campusDarkDays.jpg');}
 
-.slide-one { background-image: url('/images/campusDarkDays.jpg');}
+.slide-three { background-image: url('images/autumn.jpg');}
 
-.slide-one { background-image: url('/images/autumn.jpg');}
-
-.slide-one { background-image: url('/images/lakeside.jpg');}
+.slide-four { background-image: url('images/lakeside.jpg');}
 
 
 [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
-    
 }
