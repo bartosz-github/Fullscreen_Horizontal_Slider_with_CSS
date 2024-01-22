@@ -65,4 +65,5 @@ header label:hover {
 [id^="slide"]:checked + .slide {
     left: 0;
     z-index: 100;
+    transition: left .65s ease-out;
 }
